@@ -15,7 +15,7 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .9rem;
+  gap: 1rem;
   justify-content: center;
 `;
 
