@@ -1,10 +1,9 @@
-import { NavbarContainer } from "./styles";
-import { NavbarProps } from "./types";
+import { NavbarContainer, NavLogo } from "./styles";
 
-export const Navbar: React.FC<NavbarProps> = ({ title }) => {
+export const Navbar: React.FC = () => {
   return (
     <NavbarContainer data-aos="fade-up" data-aos-duration="500">
-      {title}
+      <NavLogo src="icons/sampaiologo.svg"/>
     </NavbarContainer>
   );
 };

@@ -1,5 +1,9 @@
 import { MainContainer } from "./styles";
-
+import { IntroSection } from "../Intro/IntroSection";
 export const Main: React.FC = () => {
-  return <MainContainer  data-aos="fade-left" data-aos-duration="500">Main</MainContainer>;
+  return (
+    <MainContainer>
+      <IntroSection />
+    </MainContainer>
+  );
 };
