@@ -8,7 +8,7 @@ export const NavbarContainer = styled.div`
   margin-bottom: 7rem;
   @media screen and (max-width: 908px){
     width: 100%;
-    border: 1px solid green;
+
   }
 `;
 export const NavLogo = styled.img`
@@ -17,7 +17,6 @@ export const NavLogo = styled.img`
   margin: 0;
   padding: 0;
   @media screen and (max-width: 908px){
-    width: 50%;
-    border: 1px solid green;
+    width: 40%;
   }
 `;

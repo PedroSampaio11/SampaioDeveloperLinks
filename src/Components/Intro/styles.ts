@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   height: auto;
-  min-height: 100vh;
+  min-height: 30vh;
   width: 100%;
   margin: 0 auto;
   margin-top: 4rem;
@@ -30,8 +30,15 @@ export const Titles = styled.h1`
   line-height: 0.77;
   padding: 0;
   margin: 0;
-  @media screen and (max-width: 908px){
-    font-size: 5rem;
+  @media screen and (min-width: 381px) and (max-width: 420px) {
+    font-size: 4.7rem;
+  }
+
+  @media screen and (min-width: 421px) and (max-width: 500px) {
+    font-size: 5.4rem;
+  }
+  @media screen and (min-width: 500px) and (max-width: 700px) {
+font-size: 5.7rem;
   }
 `;
 
@@ -46,7 +53,7 @@ align-items: center;
 background-color:rgba(242, 242, 242, 0.02);
 box-shadow: 0 0  22px 2px  rgba(242, 242, 242, 0.11);
 @media screen and (max-width: 908px){
-  width: 70%;
+  width: 60%;
   padding: 1rem 0.4rem;
   }
 `;
@@ -58,19 +65,35 @@ font-weight: bold;
 `;
 
 export const Right = styled.img`
-  height: 922px;
   width: auto;
   background-size: cover;
   object-fit: cover;
   position: absolute;
-  top: -244px;
-  right: -44px;
   box-sizing: border-box;
-  @media screen and (max-width: 908px){
-    height: 333px;
-    top: 0;
-    right: -111px;
+  @media screen and (min-width: 300px) and (max-width: 380px) {
+    height: 275px;
+    top: -77px;
+    right: -71px;
   }
+
+  @media screen and (min-width: 381px) and (max-width: 420px) {
+    height: 310px;
+    top: -77px;
+    right: -77px;
+  }
+
+  @media screen and (min-width: 421px) and (max-width: 500px) {
+    height: 333px;
+    top: -77px;
+    right: -81px;
+  }
+  @media screen and (min-width: 500px) and (max-width: 700px) {
+    height: 411px;
+    top: -77px;
+    right: -81px;
+  }
+
+
 `;
 
 export const Arrow = styled.img`
