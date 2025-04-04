@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Footer } from "./Components/Footer";
+// import { Footer } from "./Components/Footer";
 import { Main } from "./Components/Main";
 import { Navbar } from "./Components/Navbar";
 import { PageContainer } from "./Components/PageContainer";
@@ -36,7 +36,7 @@ export const App: React.FC = () => {
     <PageContainer>
       <Navbar />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </PageContainer>
   );
 };

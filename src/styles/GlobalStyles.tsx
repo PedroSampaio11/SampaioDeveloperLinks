@@ -7,6 +7,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
+    background-color: ${(props) => props.theme.colors.offBlack};
 }
 
 a {

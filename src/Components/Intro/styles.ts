@@ -6,6 +6,9 @@ export const Container = styled.section`
   width: 100%;
   margin: 0 auto;
   margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Left = styled.div`
@@ -30,7 +33,10 @@ export const Titles = styled.h1`
   line-height: 0.77;
   padding: 0;
   margin: 0;
-  @media screen and (min-width: 381px) and (max-width: 420px) {
+  @media screen and (max-width: 359px){
+font-size: 4.4rem;
+  }
+  @media screen and (min-width: 360px) and (max-width: 420px) {
     font-size: 4.7rem;
   }
 
@@ -70,7 +76,12 @@ export const Right = styled.img`
   object-fit: cover;
   position: absolute;
   box-sizing: border-box;
-  @media screen and (min-width: 300px) and (max-width: 380px) {
+  @media screen and (max-width: 359px){
+    height: 232px;
+    top: -33px;
+    right: -55px;
+  }
+  @media screen and (min-width: 360px) and (max-width: 380px) {
     height: 275px;
     top: -77px;
     right: -71px;
@@ -97,5 +108,27 @@ export const Right = styled.img`
 `;
 
 export const Arrow = styled.img`
+  height: 222px;
+  object-fit: cover;
+  width: auto;
+  animation: lights 4s ease-in-out infinite;
 
+  @keyframes lights {
+    0% {
+      opacity: 0.5;
+      filter: brightness(1);
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      filter: brightness(1.2);
+      transform: scale(1.02);
+    }
+    100% {
+      opacity: 0.5;
+      filter: brightness(1);
+      transform: scale(1);
+    }
+  }
 `;
+

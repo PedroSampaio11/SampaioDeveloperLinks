@@ -22,7 +22,7 @@ export const IntroSection: React.FC = () => {
         </Future>
         <Right src="images/principalimage.png" />
       </Left>
-      <Arrow />
+      <Arrow src="icons/arrows.svg"/>
     </Container>
   );
 };
