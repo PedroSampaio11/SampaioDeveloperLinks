@@ -87,8 +87,8 @@ const Image = styled.img`
   position: absolute;
   z-index: -1;
   @media screen and (max-width: 359px){
-    height: 200px;
-    bottom: -77px;
+    height: 210px;
+    bottom: -44px;
     right: -55px;
   }
   @media screen and (min-width: 360px) and (max-width: 380px) {
