@@ -6,9 +6,9 @@ MethodSection;
 export const Main: React.FC = () => {
   return (
     <MainContainer>
-      <IntroSection/>
-      <VizionSection/>
-      <MethodSection/>
+      <IntroSection />
+      <VizionSection />
+      <MethodSection />
     </MainContainer>
   );
 };
