@@ -12,7 +12,7 @@ export const NavbarContainer = styled.div`
   }
 `;
 export const NavLogo = styled.img`
-  width: 15%;
+  width: 14%;
   object-fit: cover;
   margin: 0;
   padding: 0;

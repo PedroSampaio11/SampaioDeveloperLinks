@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const MethodSection: React.FC = () => {
   return (
     <Container>
-      <Title>
+      <Title data-aos="fade-right" data-aos-duration="600">
         Meu <strong> Método</strong>
       </Title>
-      <Image src="images/method.png" alt="imagem mostrando meu método" />
+      <Image src="images/method.png" alt="imagem mostrando meu método" data-aos="zoom-in" data-aos-duration="600"/>
     </Container>
   );
 };

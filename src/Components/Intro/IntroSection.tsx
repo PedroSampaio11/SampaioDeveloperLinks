@@ -15,14 +15,14 @@ export const IntroSection: React.FC = () => {
     <Container>
       <Left>
         <Infos>
-          <Titles>Design Inovação Integração</Titles>
+          <Titles data-aos="fade-right" data-aos-duration="600">Design Inovação Integração</Titles>
         </Infos>
-        <Future>
-          <Paragraph>o futuro é agora.</Paragraph>
+        <Future data-aos="fade-up-right" data-aos-duration="600">
+          <Paragraph >o futuro é agora.</Paragraph>
         </Future>
         <Right src="images/principalimage.png" />
       </Left>
-      <Arrow src="icons/arrows.svg"/>
+      <Arrow src="icons/arrows.svg" data-aos="zoom-in" data-aos-duration="600"/>
     </Container>
   );
 };

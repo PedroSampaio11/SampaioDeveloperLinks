@@ -73,7 +73,7 @@ export const Slider: React.FC = () => {
   });
 
   return (
-    <SliderContainer ref={sliderRef} className="keen-slider">
+    <SliderContainer ref={sliderRef} className="keen-slider" data-aos="zoom-in" data-aos-duration="600">
       <Slide className="keen-slider__slide">
         <Container>
           <Text>Sites</Text>
