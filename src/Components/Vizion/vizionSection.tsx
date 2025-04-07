@@ -48,7 +48,7 @@ const Title = styled.h2`
   }
 `;
 const SubTitle = styled.p`
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin: 0;
   line-height: .9;
   padding: 0;
@@ -107,7 +107,7 @@ const Image = styled.img`
 
   @media screen and (min-width: 421px) and (max-width: 500px) {
     height: 344px;
-    bottom: -111px;
+    bottom: -144px;
     right: -81px;
   }
   @media screen and (min-width: 500px) and (max-width: 700px) {
