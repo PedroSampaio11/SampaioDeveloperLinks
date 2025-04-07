@@ -37,7 +37,7 @@ export const LinkSection = () => {
       <Card href="https://fourcoders.com/" target="_blank">
         <CardImage src="images/10.png"/>
       </Card>
-      <Card  href="https://wa.me/5511987654321?text=oii%20vimpelo%20seu%20agregador%20de%20links%20do%20instagram%20e%20quero%20saber%20masis">
+      <Card  href="https://wa.me/5511948338850?text=oii%20vimpelo%20seu%20agregador%20de%20links%20do%20instagram%20e%20quero%20saber%20masis">
         <CardImage src="images/11.png" />
       </Card>
       <Card href="https://www.linkedin.com/in/pedro-tuquim/">
