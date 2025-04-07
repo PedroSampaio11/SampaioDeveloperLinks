@@ -10,7 +10,7 @@ export const VizionSection = () => {
         <SubTitle>
         Sou <strong>Pedro Sampaio</strong>, desenvolvedor full-stack e CEO da Four Coders. Minha missão é transformar conceitos em soluções digitais de alto desempenho.
         </SubTitle>
-        <Button>
+        <Button href='#links'>
         Saiba Mais <img src="/icons/arrowDown.svg" alt="ícone de seta para baixo" />
         </Button>
       </Infos>
@@ -56,7 +56,7 @@ const SubTitle = styled.p`
   font-weight: 300;
   padding: 0 2rem 0 0;
 `;
-const Button = styled.button`
+const Button = styled.a`
 all: unset;
   width: 50%;
   padding: 1rem 2rem;

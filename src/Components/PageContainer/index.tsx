@@ -4,6 +4,7 @@ export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   height: 100%;
   background-color: ${(props) => props.theme.colors.offBlack};
   font-family: 'Inter', sans-serif;
