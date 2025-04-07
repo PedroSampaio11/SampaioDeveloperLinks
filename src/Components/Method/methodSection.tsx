@@ -15,6 +15,7 @@ const Container = styled.section`
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+  padding: 2rem 0;
   align-items: center;
   gap: 1rem;
   justify-content: center;

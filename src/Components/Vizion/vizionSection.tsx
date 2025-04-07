@@ -27,6 +27,7 @@ const Container = styled.section`
   display: flex;
   position: relative;
   z-index: 1;
+  padding: 2rem 0;
 `;
 
 const Infos = styled.div`
@@ -92,9 +93,9 @@ const Image = styled.img`
     right: -55px;
   }
   @media screen and (min-width: 360px) and (max-width: 380px) {
-    height: 222px;
-    bottom: -1px;
-    right: -55px;
+    height: 244px;
+    bottom: -82px;
+    right: -78px;
   }
 
   @media screen and (min-width: 381px) and (max-width: 420px) {

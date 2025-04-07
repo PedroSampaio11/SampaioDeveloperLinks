@@ -11,7 +11,7 @@ const SliderContainer = styled.div`
   width: auto;
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 `;
 
 const Slide = styled.div`
