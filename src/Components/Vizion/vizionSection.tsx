@@ -100,7 +100,7 @@ const Image = styled.img`
 
   @media screen and (min-width: 381px) and (max-width: 420px) {
     height: 244px;
-    bottom: -22px;
+    bottom: -77px;
     right: -55px;
   
   }
