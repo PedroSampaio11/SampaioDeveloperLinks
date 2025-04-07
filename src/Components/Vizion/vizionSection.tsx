@@ -48,12 +48,12 @@ const Title = styled.h2`
   }
 `;
 const SubTitle = styled.p`
-    font-size: 1.8rem;
+  font-size: 1.8rem;
   margin: 0;
   line-height: .9;
   padding: 0;
-  color: ${(props) => props.theme.colors.gray600};
-  font-weight: 400;
+  color: ${(props) => props.theme.colors.gray500};
+  font-weight: 300;
   padding: 0 2rem 0 0;
 `;
 const Button = styled.button`
@@ -100,7 +100,7 @@ const Image = styled.img`
 
   @media screen and (min-width: 381px) and (max-width: 420px) {
     height: 244px;
-    bottom: -77px;
+    bottom: -79px;
     right: -55px;
   
   }
